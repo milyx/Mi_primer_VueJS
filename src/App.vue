@@ -19,13 +19,13 @@
               </tr>
             </thead>
             <tbody>
-              <tr v-for="(usuarios, i) in usuarios" :key="i">
+              <tr v-for="(usuario, i) in usuarios" :key="i">
                 <td>{{ i + 1 }}</td>
-                <td>{{ usuarios.Nombre }}</td>
-                <td>{{ usuarios.Apellido }}</td>
-                <td>{{ usuarios.RUN }}</td>
-                <td>{{ usuarios.Nacimiento }}</td>
-                <td>{{ usuarios.Edad }}</td>
+                <td>{{ usuario.Nombre }}</td>
+                <td>{{ usuario.Apellido }}</td>
+                <td>{{ usuario.RUN }}</td>
+                <td>{{ usuario.Nacimiento }}</td>
+                <td>{{ usuario.Edad }}</td>
               </tr>
             </tbody>
           </table>
