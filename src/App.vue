@@ -11,6 +11,7 @@
           <table class="table table-striped">
             <thead>
               <tr>
+                <th scope="col">#</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Apellido</th>
                 <th scope="col">RUN</th>
